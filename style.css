@@ -1,0 +1,408 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgb(37, 37, 37);
+}
+header {
+  background-color: rgb(17, 17, 17);
+  display: flex;
+}
+.logo {
+  display: flex;
+  margin-left: 7%;
+}
+.github {
+  display: flex;
+  position: absolute;
+  right: 7%;
+  margin-top: .8em;
+}
+.github a {
+  display: flex;
+  text-decoration: none;
+}
+.github img {
+  width: 35px;
+  height: 35px;
+}
+.github h1 {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 4%;
+  font-size: 35px;
+}
+.logoText,
+.logoImg {
+  margin-top: 0.5em;
+}
+.words {
+  display: flex;
+}
+.word {
+  display: flex;
+  margin: auto;
+  font-size: 60px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.word p {
+  font-size: 60px;
+  padding: 15px;
+  padding-bottom: 12px;
+  margin: 0px 5px;
+  border-bottom: 3px solid orange;
+  cursor: pointer;
+}
+.game {
+  display: flex;
+}
+.keyboard {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 43px;
+  justify-content: center;
+}
+.keyboard button {
+  font-size: inherit;
+  padding: 25px;
+  cursor: pointer;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  margin: 2px;
+}
+.keyboard button:hover {
+  padding: 23px;
+  border: 2px solid white;
+  opacity: 0.9;
+}
+.keyboard button:active {
+  opacity: 1;
+}
+.gallows {
+  border: 1px solid white;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+.gallows img {
+  width: 300px;
+  height: 300px;
+}
+@media screen and (max-width: 1200px) {]
+  .logoText h1 {
+
+  }
+  .logoImg img {
+    width: 40px;
+    height: 40px;
+  }
+  .keyboard button {
+    padding: 25px;
+  }
+  .github h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 4%;
+    font-size: 30px;
+  }
+  .github img {
+    width: 30px;
+    height: 30px;
+  }
+  .word {
+    display: flex;
+    margin: auto;
+    font-size: 60px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .word p {
+    font-size: 50px;
+    padding: 15px;
+    padding-bottom: 12px;
+    margin: 0px 5px;
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+  }
+  .keyboard {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    justify-content: center;
+  }
+  .gallows img {
+    width: 300px;
+    height: 300px;
+  }
+  .keyboard button {
+    font-size: inherit;
+    padding: 25px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin: 2px;
+  }
+}
+@media screen and (max-width: 965px) {
+  .game {
+    flex-direction: column-reverse;
+  }
+  .logoText h1 {
+
+  }
+  .keyboard button {
+    padding: 20px;
+  }
+  .keyboard button {
+    font-size: inherit;
+    padding: 25px;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+    margin: 2px;
+  }
+  .logoImg img {
+    width: 40px;
+    height: 40px;
+  }
+  .github h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 4%;
+    font-size: 30px;
+  }
+  .github img {
+    width: 30px;
+    height: 30px;
+  }
+  .word {
+    display: flex;
+    margin: auto;
+    font-size: 60px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .word p {
+    font-size: 40px;
+    padding: 15px;
+    padding-bottom: 12px;
+    margin: 0px 5px;
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+  }
+  .keyboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px;
+    justify-content: center;
+  }
+  .gallows img {
+    width: 400px;
+    height: 250px;
+  }
+  .gallows {
+    width: 400px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 770px) {
+  .game {
+    flex-direction: column-reverse;
+  }
+  .logoText h1 {
+
+  }
+  .logoImg img {
+    width: 40px;
+    height: 40px;
+  }
+  .github h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 4%;
+    font-size: 30px;
+  }
+  .github img {
+    width: 30px;
+    height: 30px;
+  }
+  .word {
+    display: flex;
+    margin: auto;
+    font-size: 60px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .word p {
+    font-size: 35px;
+    padding: 15px;
+    padding-bottom: 12px;
+    margin: 0px 5px;
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+  }
+  .keyboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: center;
+  }
+  .keyboard button {
+    padding: 25px;
+  }
+  .gallows img {
+    width: 400px;
+    height: 250px;
+  }
+  .gallows {
+    width: 400px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 540px) {
+  .game {
+    flex-direction: column-reverse;
+  }
+  .logoText h1 {
+
+  }
+  .logoImg img {
+    width: 40px;
+    height: 40px;
+  }
+  .github h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 4%;
+    font-size: 30px;
+  }
+  .github img {
+    width: 30px;
+    height: 30px;
+  }
+  .keyboard button {
+    padding: 22px;
+  }
+  .keyboard button:hover {
+    padding: 20px;
+    border: 2px solid white;
+  }
+  .word {
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .word p {
+    font-size: 22px;
+    padding: 15px;
+    padding-bottom: 12px;
+    margin: 0px 5px;
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+  }
+  .keyboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .keyboard button {
+
+  }
+  .gallows img {
+    width: 350px;
+    height: 230px;
+  }
+  .gallows {
+    width: 350px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 410px) {
+  .game {
+    flex-direction: column-reverse;
+  }
+  .logoText h1 {
+
+  }
+  .logoImg img {
+    width: 40px;
+    height: 40px;
+  }
+  .github h1 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 4%;
+    font-size: 25px;
+  }
+  .github img {
+    width: 25px;
+    height: 25px;
+  }
+  .keyboard button {
+    padding: 19px;
+  }
+  .keyboard button:hover {
+    padding: 17px;
+    border: 2px solid white;
+  }
+  .word {
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+  .word p {
+    font-size: 14px;
+    padding: 15px;
+    padding-bottom: 12px;
+    margin: 0px 5px;
+    border-bottom: 3px solid orange;
+    cursor: pointer;
+  }
+  .keyboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    justify-content: center;
+  }
+  .keyboard button {
+
+  }
+  .gallows img {
+    width: 350px;
+    height: 230px;
+  }
+  .gallows {
+    width: 350px;
+    margin: auto;
+  }
+}
