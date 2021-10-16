@@ -5,7 +5,7 @@ let number = 1;
 img.style.height = "500px"
 img.style.wigth = "500px"
 let timer = document.createElement("div");
-    let sec = 33;
+    let sec = 31;
     timer.className = "timer";
     timer.innerHTML = "00:<span>00</span>"
     main.append(timer);
